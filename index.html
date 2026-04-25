@@ -95,11 +95,13 @@ body::before {
         .banner-name .last-name { font-weight: 300; margin-left: 10px; }
 
         .profile-img-wrap {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 128px; 
+    margin-top: -50px; 
     z-index: 5;
+    display: flex;
+    justify-content: center;
     pointer-events: none;
     -webkit-user-drag: none;
     user-select: none;
@@ -118,7 +120,7 @@ body::before {
 }
 
         .main-content {
-            margin-top: 50px;
+            margin-top: 10px;
             margin-bottom: 10px;           
             padding: 10px 25px 25px;
             text-align: center;
